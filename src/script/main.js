@@ -25,7 +25,15 @@ if (form) {
     if (!tarefa) return;
 
     const li = document.createElement("li");
-    li.innerHTML = `${tarefa}`;
+    li.innerHTML = `<div class="card">
+            <div class="subCard1">
+            ${tarefa}
+            </div>
+            <div class="subCard2">
+              <input type="radio" id="concluido" /> <label>Concluido</label>
+              <input type="radio" id="cancelar" /> <label>Cancelar</label>
+            </div>
+          </div>`;
     lista.appendChild(li);
 
     form.reset();

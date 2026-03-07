@@ -85,15 +85,16 @@ button {
   max-height: 100px;
   font-size: 20px;
   padding: 10px;
+  margin-top: 25px;
 }
 
 .subCard1 {
   width: 140vh;
-  max-width: 100px;
-  max-width: 140vh;
   border: 1px, solid, rgb(24, 24, 24);
   border-top: none;
   border-bottom: none;
   border-left: none;
   margin-right: 10px;
+  overflow-wrap: break-word;
+  overflow-y: scroll;
 }
