@@ -1,0 +1,18 @@
+# Dependências (Pasta muito pesada que o npm instala)
+node_modules/
+
+# Banco de Dados Local (Dados de teste que você cria enquanto coda)
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos de log e cache
+npm-debug.log*
+.eslintcache
+
+# Variáveis de Ambiente (Onde você esconderá senhas no futuro)
+.env
+
+# Pastas de sistema
+.DS_Store
+Thumbs.db
