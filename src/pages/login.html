@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/src/styles/login.css" />
+  </head>
+  <body>
+    <main>
+      <div class="divIllustration">
+        <img src="/src/img/login-illustration.svg" />
+      </div>
+      <div class="divLogin">
+        <form id="form">
+          <label>Nome de Usuário</label>
+          <input type="text" />
+          <label>Senha</label>
+          <input type="password" />
+          <button class="login" type="submit">Entrar</button>
+          <button type="button" class="cadastro" onclick="cadastro()">
+            Cadastrar-se
+          </button>
+        </form>
+      </div>
+    </main>
+    <script src="/src/script/login.js"></script>
+  </body>
+</html>
